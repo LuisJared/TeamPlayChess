@@ -226,11 +226,7 @@ public class Controller
 				board.printBoard();
 			}
 			
-			// detects if and when check and/or check mate happens
-			System.out.println("\nabout to get black king");
-			team.getKingFromBlackTeam();
-			System.out.println("suppose to of gotten it");
-			
+			// detects if and when check and/or check mate happens			
 			if(whitePlayerTurn())
 			{
 				if(isKingInCheck(whiteKingPosition))
